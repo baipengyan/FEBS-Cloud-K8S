@@ -12,7 +12,7 @@ CentOS 7| 192.168.33.12| Node1| 2 | 5120M |node1
 CentOS 7| 192.168.33.13| Node2| 2 | 5120M |node2
 CentOS 7| 192.168.33.14| Node3| 2 | 5120M |node3
 CentOS 7| 192.168.33.15| NFS| 1 | 1024M |nfs
-CentOS 7| 192.168.33.16| Extend| 2 | 8192M |extend
+CentOS 7| 192.168.33.16| Extend| 2 | 7168M |extend
 
 架构图：
 
