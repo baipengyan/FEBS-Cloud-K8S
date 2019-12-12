@@ -1,13 +1,9 @@
 ## FEBS-Cloud-K8S
-FEBS Cloud kubernetes deployment guide,base on kubernetes 1.16.2 cluster.
+FEBS Cloud Kubernetes部署脚本，基于K8S 1.16.2集群版本。
 
-Steps:
+具体部署教程：[https://www.kancloud.cn/mrbird/spring-cloud/1426914](https://www.kancloud.cn/mrbird/spring-cloud/1426914)
 
-1. Create nfs server.
-2. Create nacos cluster.
-3. Deploy FEBS server cluster.
-
-Centos virtual machine configuration created with vagrant:
+Vagrant创建的虚机配置列表：
 
 System | IP | Role| CPU cores | RAM| Hostname
 ---|---|---|---|---|---
@@ -18,6 +14,6 @@ CentOS 7| 192.168.33.14| Node3| 2 | 5120M |node3
 CentOS 7| 192.168.33.15| NFS| 1 | 1024M |nfs
 CentOS 7| 192.168.33.16| Extend| 2 | 8192M |extend
 
-Diagram:
+架构图：
 
 ![Diagram](images/diagram.png)

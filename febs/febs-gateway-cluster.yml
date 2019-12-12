@@ -40,11 +40,6 @@ spec:
                 configMapKeyRef:
                   name: febs-cm
                   key: logstash.url
-            - name: skywalking.url
-              valueFrom:
-                configMapKeyRef:
-                  name: febs-cm
-                  key: skywalking.url
             - name: febs-monitor-admin
               valueFrom:
                 configMapKeyRef:
